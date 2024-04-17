@@ -1,7 +1,7 @@
 第一节：书生·浦语大模型全链路开源开放体系
 ========
 本节介绍了书生·浦语大模型全链路开源体系，包含数据处理，预训练，微调，部署，评测和应用，书生浦语2.0包含三个版本，InternLM2-base(模型基座),InternLM2-chat(增加了SFT和RLHF),InternLM2(加强版模型基座）。
-                                                                                                                     
+![image text](https://github.com/abigcatcat/shusheng/blob/main/class1/%E5%85%B8%E5%9E%8B%E6%B5%81%E7%A8%8B.png)                                                                                                                     
 数据处理：
 -----
 书生万卷1.0包含文本数据，图像-文本数据，视频数据，并进行了多模态融合，精细化处理和价值观对齐。书生万卷CC数据集时间跨度更长，来源更丰富，安全性更高。数据集获取：https://opendatalab.org.cn/。     
@@ -22,4 +22,7 @@ LMDeploy 提供了在 GPU 上部署大型模型的全面解决方案，包括模
 ------
 通过OpenCompass进行，通过CompassRank（性能排行榜）、CompassKit（全栈评估工具）和CompassHub（高质量评估基准社区）提供全面、可重复的性能评估。
 
-应用：专注于支持Lagent、AgentLego等各种代理和工具，提供支持LangChain、Transformers Agent、lagent等系统的多模态代理工具包。 它为各种输入/输出格式提供了简单的工具功能调用接口，并支持一键远程工具部署。
+应用：
+------
+专注于支持Lagent、AgentLego等各种代理和工具，提供支持LangChain、Transformers Agent、lagent等系统的多模态代理工具包。 它为各种输入/输出格式提供了简单的工具功能调用接口，并支持一键远程工具部署。
+![image text](https://github.com/abigcatcat/shusheng/blob/main/class1/%E5%85%B8%E5%9E%8B%E6%B5%81%E7%A8%8B.png) 
